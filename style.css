@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 2.6rem;
+}
+
+li, button, label, input{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 4.8rem;
+}
+
+h3{
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+h4, h5{
+    font-size: 2.8rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-head{
+    background-color: #131c27;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav{
+    min-height: 10vh;
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-evenly;
+}
+
+.logo{
+    flex: 2 1 40rem;
+    font-family: 'Pattaya', sans-serif;
+    /* font-family: 'Reggae One', cursive; */
+    font-weight: normal;
+}
+
+.home{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(restaurant.jpg);
+    min-height: 90vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home h3{
+    font-size: 2.5rem;
+    padding: 5rem;
+}
+
+button{
+    background: none;
+    color: #f8961e;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1rem;
+    transition: all 0.5s;
+}
+
+button:hover{
+    border-radius: 30px;
+    border-color: #013a63;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #013a63;
+    transform: translateY(-0.25em); 
+    cursor: pointer;
+}
+
+.menu{
+    min-height: 110vh;
+    background-image: linear-gradient(to right, rgba(145,139,129, 0.4), rgba(145,139,129, 0.4)), url(RJ\ Tasty\ Treat\ menu\ card.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+.gallery-head{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.box{
+    height: 400px;
+    width: 200px;
+    flex: 1 1 40rem;
+    border: 1px solid black;
+}
+
+.gal{
+    text-align: center;
+    background-color: #131c27;
+    color: white;
+    padding: 2rem;
+    font-family: 'Reggae One', cursive;
+    
+}
+
+.pic1{
+    min-height: 50vh;
+    background-image: url(tabel_booking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.pic2{
+    min-height: 50vh;
+    background-image: url(tabel_serving.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic3{
+    min-height: 50vh;
+    background-image: url(candel_night_dinner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic4{
+    min-height: 50vh;
+    background-image: url(ice_cream.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic5{
+    min-height: 50vh;
+    background-image: url(large_tabel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.pic6{
+    min-height: 50vh;
+    background-image: url(food.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+
+#contact{
+    min-height: 100vh;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(relax.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-wrapper{
+    background-color: rgba(19,28,39,0.7);
+    width: 60%;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 2px solid black;
+}
+
+.form-wrapper .form-head{
+    text-align: center;
+    padding: 4rem;
+}
+
+.name-form , .email-form{
+    text-align: center;
+    padding: 4rem;
+}
+
+.form-wrapper label{
+    margin: 0rem 3rem;
+}
+
+.form-wrapper button{
+    width: 100%;
+    padding: 2rem;
+    margin-top: 8rem;
+    border-bottom-right-radius: 70px;
+}
+
+footer{
+    color: white;
+    background-color: #131c27;
+}
+
+.footer-wrapper{
+    display: flex;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer h5{
+    flex: 1 1 40rem;
+}
+
+footer ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 40rem;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 932px) {
+    html{
+        font-size: 45%;
+    }
+    nav{
+        text-align: center;
+    }
+    .logo{
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    nav{
+        text-align: center;
+    }
+
+    .menu{
+        height: 110vh;
+        background-image: linear-gradient(to right, rgba(145,139,129, 0.4), rgba(145,139,129, 0.4)), url(Slide2.PNG);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .form-wrapper{
+        width: 100%;
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    footer h5{
+        padding-bottom: 3rem;
+    }
+}
+
